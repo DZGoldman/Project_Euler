@@ -13,6 +13,7 @@ var eulerSix = function (num) {
   var squareOfSums= sum*sum;
 
   return squareOfSums-sumOfSquares;
+  
 }
 =======
 // //Project Euler #6
