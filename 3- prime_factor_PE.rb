@@ -1,3 +1,4 @@
+#solved
 require "pry"
 
 @is_prime=  def is_prime num

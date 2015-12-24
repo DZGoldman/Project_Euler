@@ -1,3 +1,4 @@
+#solved
 require_relative 'prime_factor_PE3'
 
 def consec_prime limit

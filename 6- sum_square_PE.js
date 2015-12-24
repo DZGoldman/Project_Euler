@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+#solved
 
 var eulerSix = function (num) {
   var sumOfSquares=0;
@@ -13,9 +13,9 @@ var eulerSix = function (num) {
   var squareOfSums= sum*sum;
 
   return squareOfSums-sumOfSquares;
-  
+
 }
-=======
+
 // //Project Euler #6
 //
 
@@ -47,4 +47,3 @@ var eulerSix = function (limit) {
   var sumOfSq = (2*limit+1)*(limit+1)*limit/6
   return sqOfSum - sumOfSq
 };
->>>>>>> abba84a94b7b094f6049a1914836bfc8de8e212c

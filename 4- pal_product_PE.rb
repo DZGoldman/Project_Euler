@@ -1,3 +1,4 @@
+#solved
 require 'pry'
 def pal_prod
 @max=1;
