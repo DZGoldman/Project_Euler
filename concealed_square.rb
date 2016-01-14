@@ -34,7 +34,7 @@ def concealed number
 end
 
 for i in 10000000..100000000
-  number = (i*10 +3)**2
+  number = (i*10 +7)**2
 
   if number.to_s[0]!='1'
     puts 'the numbers passed up 1'
@@ -52,7 +52,7 @@ for i in 10000000..100000000
   end
 
   if concealed number
-    print "the answer is #{(i*10+3)*10 }"
+    print "the answer is #{(i*10+7)*10 }"
     break
   end
 
