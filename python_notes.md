@@ -93,3 +93,14 @@ pip install TwitterAPI
 - Math/sci
   - Numpy/Scimpy
   -
+
+- / escape
+- len('string') : lenth
+- 'string'.upper() or 'string'.lower()
+- str(4) makes it a string
+- need to convert numbers t string explicitely
+- %s for string concat
+- raw_input('string')
+- can import packages easily with import
+  - datetime.now()
+  - and or and not: nice. No falsineess or truthiness, i think
