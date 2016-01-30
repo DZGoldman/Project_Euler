@@ -21,7 +21,7 @@ for (var i = 98; i >=0; i--) {
     twoDArray[i][index]=number+max
   })
 }
-console.log(twoDArray);
+console.log(twoDArray[0]);
 
 
 });
