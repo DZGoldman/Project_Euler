@@ -7,31 +7,18 @@ require 'pry'
 
 # psuedo: starting at 10000000 (8 digits), test all numbers *10 +3 and see if concealed is true.
 # if so, answer is that *10
-
 def concealed number
-
   num_string = number.to_s
-  if num_string[0]!='1'
-    return false
-  elsif num_string[2]!='2'
-    return false
-  elsif num_string[4]!='3'
-    return false
-  elsif num_string[6]!='4'
-    return false
-  elsif num_string[8]!='5'
-    return false
-  elsif num_string[10]!='6'
-    return false
-  elsif num_string[12]!='7'
-    return false
-  elsif num_string[14]!='8'
-    return false
-  elsif num_string[16]=='9'
-    return true
+  for n in 0..8
+    n = n*2
+    if num_string[n] != ((n+2)/2).to_s
+      return false
+    end
   end
-
+  true
 end
+
+#
 
 for i in 10000000..100000000
   number = (i*10 +7)**2
