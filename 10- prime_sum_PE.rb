@@ -52,30 +52,16 @@ full_prime_array.reduce(:+)
 
 end
 
-#puts better_prime_sum 2000000
-#puts duration=Time.now - start
-
 binding.pry
 
 #SCRAPS
 #takes about 20 seconds
-def slow_prime_sum limit
-  prime_array=[2];
-  number=3;
-  until number>limit
-    prime_array.push number if is_prime number
-    number+=2
-  end
-  prime_array.reduce(:+)
-end
-
-# #this is useless
-# def alt_prime_sum limit
-#   prime_sum=2;
+# def slow_prime_sum limit
+#   prime_array=[2];
 #   number=3;
 #   until number>limit
-#     prime_sum+=number if is_prime number
+#     prime_array.push number if is_prime number
 #     number+=2
 #   end
-#   prime_sum
+#   prime_array.reduce(:+)
 # end

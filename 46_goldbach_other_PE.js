@@ -19,7 +19,7 @@ while (true) {
 
     };
     if (notFound) {
-      console.log(oddNum);
+      return oddNum
       break
     }
 

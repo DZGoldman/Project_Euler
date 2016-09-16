@@ -3,6 +3,9 @@ var cheerio = require('cheerio');
 
 //access the data by scraping it directly:
 request('http://www.yodlecareers.com/puzzles/triangle.txt', function (error, response, html) {
+  var $ = cheerio.load(html)
+  console.log($('body'));
+
     var singleArray =html.split(' ')
     var twoDArray = [];
 //sort numbers into a 2D array (row 1 has 1 number, 2 has two numbers, etc):
@@ -29,7 +32,7 @@ for (var i = 98; i >=0; i--) {
     twoDArray[i][index]=number+max
   })
 }
-console.log(twoDArray[0]);
+
 
 
 });
